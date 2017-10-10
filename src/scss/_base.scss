@@ -1,0 +1,181 @@
+$theme:#2D8cF0;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    border: 1px solid #CCC !important;
+}
+
+.cf::after,
+.clearfix::after,
+.cf-all::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: right;
+    visibility: hidden
+}
+
+.cf-all::after {
+    clear: both !important;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.rlt {
+    position: relative;
+}
+
+.abs {
+    position: absolute;
+}
+
+.dn {
+    display: none;
+}
+
+.db {
+    display: block;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.tc {
+    text-align: center;
+}
+
+.tl {
+    text-align: left;
+}
+
+.tr {
+    text-align: right;
+}
+
+.ell,
+.toe {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ell2,
+.toe2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+@for $i from 0 through 10 {
+    $num: $i * 5;
+    $numPx: $num + px;
+    .mt#{$num} {
+        margin-top: $numPx !important;
+    }
+    .mb#{$num} {
+        margin-bottom: $numPx !important;
+    }
+    .mr#{$num} {
+        margin-right: $numPx !important;
+    }
+    .ml#{$num} {
+        margin-left: $numPx;
+    }
+    .mtb#{$num} {
+        margin-top: $numPx;
+        margin-bottom: $numPx;
+    }
+    .mlr#{$num} {
+        margin-left: $numPx;
+        margin-right: $numPx;
+    }
+    .mg#{$num} {
+        margin: $numPx;
+    }
+    .pt#{$num} {
+        padding-top: $numPx;
+    }
+    .pb#{$num} {
+        padding-bottom: $numPx;
+    }
+    .pr#{$num} {
+        padding-right: $numPx;
+    }
+    .pl#{$num} {
+        padding-left: $numPx;
+    }
+    .ptb#{$num} {
+        padding-top: $numPx;
+        padding-bottom: $numPx;
+    }
+    .plr#{$num} {
+        padding-left: $numPx;
+        padding-right: $numPx;
+    }
+    .pd#{$num} {
+        padding: $numPx;
+    }
+    .fs#{$i+9} {
+        font-size: $i+9+Px;
+    }
+    .w#{$i*10} {
+        width: $i*10px
+    }
+    .w#{($i+10)*10} {
+        width: ($i+10)*10px
+    }
+    .w#{($i+20)*10} {
+        width: ($i+20)*10px
+    }
+    .wp#{$i*5} {
+        width: $i*5+%
+    }
+    .wp#{($i+10)*5} {
+        width: ($i+10)*5+%
+    }
+}
+
+.text-link,
+.text-primary {
+    color: $primary-color;
+}
+
+.text-success {
+    color: $success-color;
+}
+
+.text-info {
+    color: $info-color;
+}
+
+.text-warning {
+    color: $warning-color;
+}
+
+.text-error {
+    color: $error-color;
+}
+
+.wrapper {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
