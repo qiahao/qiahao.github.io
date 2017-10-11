@@ -17,9 +17,10 @@
 	}
 	a{
 		color: #fff;
-		&:hover{
+		&.router-link-active,&:hover{
 			text-decoration: underline;
 		}
+
 	}
 }
 .banner{
