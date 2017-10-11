@@ -25,7 +25,7 @@ module.exports = {
         env: require('./dev.env'),
         port: 9090,
         autoOpenBrowser: true,
-        assetsSubDirectory: 'public',
+        assetsSubDirectory: 'static',
         assetsPublicPath: '/',
         proxyTable: {
             '/vmc': {

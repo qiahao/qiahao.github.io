@@ -1,9 +1,10 @@
 export default {
-    name: 'gan',
-    sex: '男',
-    phoneNumber: '15880153020',
-    email: '404546074@qq.com',
-    image: '',
+    name: 'xx',
+    sex: 'xx',
+    birth: 'xx',
+    phone: 'xx',
+    email: 'xx',
+    image: 'xx',
 
 
 }

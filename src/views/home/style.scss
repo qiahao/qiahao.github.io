@@ -1,8 +1,10 @@
 @import '../../scss/helper/_variable.scss';
-#home {}
+#home {
+	}
 
 .home-profile {
     width: 100%;
+    padding: 60px 0;
     background-color: $primary-color;
-    color: #fff;
+	
 }
