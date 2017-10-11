@@ -2,9 +2,44 @@
 #home {
 	}
 
+.top-nav{
+	position: absolute;
+	top: 20px;
+	left: 0;
+	width: 100%;
+	font-size: 14px;
+	ul{
+		float: right;
+	}
+	li{
+		display: inline-block;
+		margin-left: 30px;
+	}
+	a{
+		color: #fff;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
+.banner{
+	width: 100%;
+	padding: 120px 0 80px;
+	background-color: $primary-color;
+	color: #fff;
+	.wrapper{
+		position: relative;
+	}
+	h1{
+		margin-bottom: 30px;
+		// font-size: 38px;
+	}
+	h6{}
+	span{
+		margin-right: 20px;
+	}
+}
 .home-profile {
-    width: 100%;
-    padding: 60px 0;
-    background-color: $primary-color;
+    
 	
 }

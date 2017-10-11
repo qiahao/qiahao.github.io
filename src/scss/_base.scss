@@ -9,6 +9,7 @@ html,
 body {
     width: 100%;
     min-height: 100%;
+    font-size: 12px;
     overflow: hidden;
 }
 
@@ -17,6 +18,12 @@ input:-webkit-autofill {
     border: 1px solid #CCC !important;
 }
 
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 .cf::after,
 .clearfix::after,
 .cf-all::after {
