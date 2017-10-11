@@ -1,7 +1,7 @@
 export default {
     name: '甘乾泰',
-    title: '前端工程师',
-    experience: '4.5年',
+    title: '陈磊是傻逼',
+    experience: '老牛的java攻城狮',
     sex: 'xx',
     birth: 'xx',
     phone: 'xx',
