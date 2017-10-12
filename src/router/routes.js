@@ -1,7 +1,7 @@
 import Home from '@/views/home';
 import Experience from '@/views/home/experience';
 import Introduce from '@/views/home/introduce';
-import Contact from '@/views/home/contact';
+import Profile from '@/views/home/profile';
 
 // const routes = webpackRequire2array(require.context('./', true, /\/index.js$/), ['./index.js'])
 
@@ -19,8 +19,8 @@ export default [{
         		component: Introduce,
         	},
         	{
-        		path: '/contact',
-        		component: Contact,
+        		path: '/profile',
+        		component: Profile,
         	},
         ]
     }

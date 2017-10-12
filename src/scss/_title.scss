@@ -1,0 +1,16 @@
+.block-title {
+    margin: 10px 0;
+    position: relative;
+    padding-left: 20px;
+}
+
+.block-title::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 6px;
+    background-color: $primary-color
+}
