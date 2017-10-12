@@ -1,7 +1,7 @@
 import profile from './profile'
-import workExperience from './work-experience'
+import experience from './experience'
 
 export default {
     profile,
-    workExperience,
+    experience,
 }
