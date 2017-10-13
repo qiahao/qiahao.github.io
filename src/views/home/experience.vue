@@ -18,7 +18,7 @@
                             <dd>{{project.desc}}</dd>
                         </dl>
                     </div>
-                    <p>备注： {{item.addition}}</p>
+                    <p v-if="item.addition">备注： {{item.addition}}</p>
                 </div>
             </div>
         </div>
