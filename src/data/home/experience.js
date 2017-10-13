@@ -23,7 +23,7 @@ export default [{
         addition: ''
     },
     {
-        conpanyName: '福州福囧科技有限公司',
+        conpanyName: '不囧科技',
         duration: '2016-03 至 2017-03',
         post: '前端工程师',
         description: '开发项目以pc端、移动端电商网以及电商运维管理系统为主，负责业务开发、持续更新维护。使用技术包括：angular1.x、ionic1、jquery、gulp。',
