@@ -1,3 +1,4 @@
+let log = console.log
 require('./check-versions')()
 
 var config = require('../config')

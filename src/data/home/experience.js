@@ -24,7 +24,7 @@ export default [{
     },
     {
         conpanyName: '不囧科技',
-        duration: '2016-03 至 2017-03',
+        duration: '2016-04 至 2017-03',
         post: '前端工程师',
         description: '开发项目以pc端、移动端电商网以及电商运维管理系统为主，负责业务开发、持续更新维护。使用技术包括：angular1.x、ionic1、jquery、gulp。',
         projects: [{
@@ -49,7 +49,7 @@ export default [{
     },
     {
         conpanyName: '福建玉米网络科技',
-        duration: '2014-08 至 2016-02',
+        duration: '2014-10 至 2016-03',
         post: '前端工程师',
         description: '日常开发工作为静态页面开发，参与项目类型包括：移动端电商商城、pc端电竞交易平台。',
         projects: [{
@@ -70,7 +70,7 @@ export default [{
     },
     {
         conpanyName: '福州隆鑫汇贸易有限公司',
-        duration: '2012-07 至 2014-06',
+        duration: '2012-07 至 2014-09',
         post: '网页开发',
         description: '入职岗位seo，后转做网页开发。工作主要内容：静态页切片，修改、维护线上网站和电商模版，编辑网站商品等。',
         addition: '开始接触网页开发，利用网络等资源开始学习html标记语言、css样式等知识，掌握扎实的html、css样式和浏览器兼容问题处理办法。'
