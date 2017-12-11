@@ -2,7 +2,7 @@
     <div class="experience">
         <div class="wrapper">
             <h2 class="block-title">工作经验</h2>
-            <div class="mlr30">
+            <div class="mlr30 wrap">
                 <div class="experience-item" v-for="(item, i) in $resumeData.experience">
                     <h2>{{item.conpanyName}}</h2>
                     <h4>

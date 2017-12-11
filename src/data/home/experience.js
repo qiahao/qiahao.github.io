@@ -20,7 +20,7 @@ export default [{
                 desc: '页面开发、维护'
             },
         ],
-        addition: ''
+        addition: '在项目开发维护过程中持续性的对项目进行优化，跟进对Vue技术生态系统不断掌握和应用，同时学习swift语法和express等。'
     },
     {
         conpanyName: '不囧科技',

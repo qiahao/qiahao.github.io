@@ -6,8 +6,8 @@ export default [{
         path: '/introduce',
         title: '个人简介'
     },
-    {
-        path: '/profile',
-        title: '基本信息'
-    },
+    // {
+    //     path: '/profile',
+    //     title: '基本信息'
+    // },
 ]
