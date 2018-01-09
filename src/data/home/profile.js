@@ -38,8 +38,8 @@ export default {
         {
             title: '近期正在学习：', 
             list: [
-                '学习使用 node.js + express web服务端开发，通过掌握exprss熟悉服务端知识点；',
-                '熟悉react api，正在学习react 配合ant-design完成项目开发；',
+                '全栈开发： 学习使用 node.js + express web服务端开发，通过掌握exprss熟悉服务端知识点；',
+                '掌握react及混合app开发：目前能使用react 完成前端项目开发，正在学习react相关库及框架和swift等iOS基础知识；',
                 // '学习客户端语言swift，通过对ios客户端的进一步了解，用于完成 app hybrid 开发；'
             ]
         }
